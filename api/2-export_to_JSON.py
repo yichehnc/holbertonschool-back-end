@@ -37,4 +37,4 @@ if __name__ == "__main__":
     todo_data = {USER_ID: tasks}
 
     with open('{}.json'.format(USER_ID), mode='w') as f:
-              json.dump(todo_data, f)
+        json.dump(todo_data, f)
